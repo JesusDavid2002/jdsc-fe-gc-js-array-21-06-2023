@@ -9,10 +9,11 @@ const Comprobador = (newArrayA, newArrayB) => {
     for (let i = 0; i < newArrayA.length; i++) {
         for (let j = 0; j < newArrayB.length; j++) {
             if(newArrayA[i] === newArrayB[j]){
-            array = repetidos.push(newArrayA[i])
+                array = repetidos.push(newArrayA[i]);  
             }
         }   
-    }console.log(repetidos)
+    }
+    console.log(repetidos);
 }
 
 Comprobador(javascript1, javascript2);
